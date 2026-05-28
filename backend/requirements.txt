@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pdfplumber==0.11.4
+pydantic==2.9.2
+rapidfuzz==3.10.0
+python-dateutil==2.9.0
+aiofiles==24.1.0
+httpx==0.27.2
+
+# Architecture enhancement (Phase 1 — embedding-based entity extraction)
+# Install these to enable full 95,056-code coverage:
+# sentence-transformers>=2.7.0
+# faiss-cpu>=1.8.0
+# numpy>=1.26.0
+
+# Architecture enhancement (Phase 2 — three-layer procedure classifier)
+# Install to enable spaCy verb-tense analysis:
+# spacy>=3.7.0
+# Run: python -m spacy download en_core_web_sm
